@@ -159,14 +159,14 @@ class Triangle {
             }
         }while(err);
     }
-
+    // Изменение точек треугольника
     public void setTriangle(Point a, Point b, Point c){
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
-
+    // Печать данных от треугольнике
     public void print(){
         System.out.println("Треугольник состоит из 3 точек с координатами:");
         a.print();
